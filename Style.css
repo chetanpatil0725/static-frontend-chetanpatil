@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Primary Button */
+.primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #1e40af;
+}
+
+/* Hover Button */
+.hover {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.hover:hover {
+  background-color: #d1d5db;
+}
+
+/* Disabled Button */
+.disabled {
+  background-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
